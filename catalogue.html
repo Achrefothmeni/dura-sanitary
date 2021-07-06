@@ -1,0 +1,469 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dura</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./logo.png">
+
+    <!-- CSS
+	============================================ -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+
+    <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from avobe) -->
+    <!--
+    <script src="assets/js/vendor/vendor.min.js"></script>
+    <script src="assets/js/plugins/plugins.min.js"></script>
+    -->
+
+    <!-- Main Style CSS (Please use minify version for better website load performance) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="header-area haeder-default  black-logo-version ptb_lg--40 ptb_md--40 ptb_sm--30">
+        <div class="header-wrapper container">
+            <div class="row align-items-center">
+                <!-- Start Header Left -->
+                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./logob.png" alt="Draven logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- Start Header Center -->
+                <div class="col-xl-9 d-none d-xl-block">
+                    <nav class="mainmenu__nav">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu megamenu-wrapper">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">A propos nous</a></li>
+                            <li class="lavel-1"><a href="catalogue.html" >Catalogue</a>
+                                <ul class="dropdown__menu">
+                                    <li><a href="catalogue.html"><span>Baignoires rectangulaire</span></a></li>
+                                    <li><a href="catalogue.html"><span>Baignoires d'angle</span></a></li>
+                                    <li><a href="catalogue.html"><span>Receveurs</span></a></li>
+                                    <li><a href="catalogue.html"><span>Vasques</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html" >Contact</a></li>
+
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                </div>
+                <!-- Start Header Right -->
+                <div class="col-xl-1 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="header-icon d-flex justify-content-end cart text-right">
+                       
+                        <a class="hamburger-trigger d-block d-xl-none pl--15" href="#">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    <!-- Start Header -->
+    <!-- Start Hamburger -->
+    <div class="hamburger-area">
+        <div class="btn-close-search">
+            <button>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <!-- Start Main Menu -->
+        <ul class="menu-primary-menu-1 responsive-manu d-block d-xl-none" id="responsive-manu">
+            
+            <li class="has-dropdown"><a href="shop.html">Menu</a>
+                <ul class="sub-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">A propos nous</a></li>
+                    <li><a href="catalogue.html">Catalogue</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- End Main Menu -->
+    </div>
+    <!-- End Hamburger -->
+
+ 
+    <div class="breadcumb-area ptb--100 ptb_md--100 ptb_sm--100  bg_image bg_image--3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner text-center">
+                        <h2 class="font--40 mb--0" style="color: #fff;">Notre Catalogue</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Start Product Feature Tab -->
+        <div class="product-sale-area pt--100 pt_md--80 pt_sm--80 bg-color" data-bg-color="#ffffff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Start Product Tab -->
+                        <ul class="nav nav-tabs onsale-tab" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="br-tab" data-toggle="tab" href="#br" role="tab" aria-controls="br" aria-selected="true">Baignoires rectangulaire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="ba-tab" data-toggle="tab" href="#ba" role="tab" aria-controls="ba" aria-selected="false">Baignoires d'angle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="r-tab" data-toggle="tab" href="#r" role="tab" aria-controls="r" aria-selected="false">Receveurs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-tab" data-toggle="tab" href="#v" role="tab" aria-controls="v" aria-selected="false">Vasques</a>
+                            </li>
+                        </ul>
+                        <!-- End Product Tab -->
+                    </div>
+                </div>
+                <div class="row mt--30">
+                    <div class="col-lg-12">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="br" role="tabpanel" aria-labelledby="br-tab">
+                                <div class="row">
+
+                                    <!-- Start Single Product -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                                        <div class="product">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/images/produits/duos.PNG" alt="Product Images">
+                                                    </a>
+                                                </div>
+                                                <div class="product-hover-action">
+                                                    <div class="hover-inner">
+                                                        <a title="Quick View" class="quickview" href="#">Voir</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <h2><a href="product-details.html">Baignoires rectangulaire- DUOS</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Product -->
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ba" role="tabpanel" aria-labelledby="ba-tab">
+                                <div class="row">
+                                    <!-- Start Single Product -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                                        <div class="product">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/images/product/product-08.jpg" alt="Product Images">
+                                                    </a>
+                                                </div>
+                                                <div class="product-hover-action">
+                                                    <div class="hover-inner">
+                                                        <a title="Quick View" class="quickview" href="#"><i class="fa fa-search"></i></a>
+                                                        <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                        <a href="compare.html"><i class="fa fa-repeat"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <h2><a href="product-details.html">Three-Piece Check</a></h2>
+                                                <span class="prize">$500.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Product -->
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="r" role="tabpanel" aria-labelledby="r-tab">
+                                <div class="row">
+                                    <!-- Start Single Product -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                                        <div class="product">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/images/product/product-12.jpg" alt="Product Images">
+                                                    </a>
+                                                </div>
+                                                <div class="product-hover-action">
+                                                    <div class="hover-inner">
+                                                        <a title="Quick View" class="quickview" href="#"><i class="fa fa-search"></i></a>
+                                                        <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                        <a href="compare.html"><i class="fa fa-repeat"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <h2><a href="product-details.html">Mixed Media Top</a></h2>
+                                                <span class="prize">$200.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Product -->
+
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v" role="tabpanel" aria-labelledby="v-tab">
+                                <div class="row">
+                                    <!-- Start Single Product -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                                        <div class="product">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="product-details.html">
+                                                        <img src="assets/images/product/product-12.jpg" alt="Product Images">
+                                                    </a>
+                                                </div>
+                                                <div class="product-hover-action">
+                                                    <div class="hover-inner">
+                                                        <a title="Quick View" class="quickview" href="#"><i class="fa fa-search"></i></a>
+                                                        <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                        <a href="compare.html"><i class="fa fa-repeat"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <h2><a href="product-details.html">Mixed Media Top</a></h2>
+                                                <span class="prize">$200.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Product -->
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Product Feature Tab -->
+
+
+        <!-- Start Brand Area -->
+        <div class="brand-area ptb--90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-wrapper bg-color ptb--70" data-bg-color="#f7f8f9">
+                            <div class="brand-list plr--60 flex-wrap flex-lg-nowrap d-flex justify-content-between">
+                                <a href="#">
+                                    <img src="assets/images/brand/brand-01.png" alt="Brand">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/brand/brand-02.png" alt="Brand">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/brand/brand-03.png" alt="Brand">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/brand/brand-04.png" alt="Brand">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/brand/brand-01.png" alt="Brand">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Brand Area -->
+
+    </div>
+
+    <!-- Start Footer Area -->
+    <footer class="footer-area bg-color plr--100 plr_lg--40 plr_md--30 plr_sm--30 clearfix" data-bg-color="#f4f8fa">
+        <!-- Start Footer Top -->
+        <div class="footer-top ptb--80">
+            <div class="row">
+                <div class="col-custom--5">
+                    <div class="footer-widget">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo-black.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="inner">
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-custom--5 mt_mobile--40">
+                    <div class="footer-widget">
+                        <h5 class="title">Company</h5>
+                        <div class="inner">
+                            <ul class="ft-link">
+                                <li><a href="#">About US</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-custom--5 mt_md--40 mt_sm--40">
+                    <div class="footer-widget">
+                        <h5 class="title">Product</h5>
+                        <div class="inner">
+                            <ul class="ft-link">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Customers</a></li>
+                                <li><a href="#">Demos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-custom--5 mt_md--40 mt_sm--40">
+                    <div class="footer-widget">
+                        <h5 class="title">Helps</h5>
+                        <div class="inner">
+                            <ul class="ft-link">
+                                <li><a href="#">Introduction</a></li>
+                                <li><a href="#">Feedback</a></li>
+                                <li><a href="#">Referrals</a></li>
+                                <li><a href="#">Network Status</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-custom--5 mt_md--40 mt_sm--40">
+                    <div class="footer-widget">
+                        <h5 class="title">Social Netowrk</h5>
+                        <div class="inner">
+                            <ul class="ft-link">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                                <li><a href="#">Google +</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Top -->
+        <!-- Start Footer Middle -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-middle-inner ptb--45 text-center">
+                            <div class="tags-list">
+                                <span>Tags :</span>
+                                <div class="tags">
+                                    <a href="#">Minimal eCommerce</a>
+                                    <a href="#">Marketing</a>
+                                    <a href="#">User Exprience</a>
+                                    <a href="#">Ali Express</a>
+                                    <a href="#">Web</a>
+                                    <a href="#">Digital Expo</a>
+                                    <a href="#">Web Search</a>
+                                    <a href="#">Affiliate</a>
+                                    <a href="#">UCWeb</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Theme</a>
+                                    <a href="#">Best Queality</a>
+                                    <a href="#">Mobile</a>
+                                    <a href="#">24 Support</a>
+                                    <a href="#">Ali Express</a>
+                                    <a href="#">Web</a>
+                                    <a href="#">Laptop</a>
+                                    <a href="#">Web Search</a>
+                                    <a href="#">Affiliate</a>
+                                    <a href="#">Photoshop</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Theme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+        <!-- Start Copyright -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-inner ptb--25 text-center">
+                            <p class="mb--0">Copyright © All Right Resurved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright -->
+    </footer>
+    <!-- End Footer Area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS
+============================================ -->
+
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <!-- Vendor & Plugins JS (Please remove the comment from below vendor.min.js & plugins.min.js for better website load performance and remove js files from avobe) -->
+    <!--
+<script src="assets/js/vendor/vendor.min.js"></script>
+<script src="assets/js/plugins/plugins.min.js"></script>
+-->
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
